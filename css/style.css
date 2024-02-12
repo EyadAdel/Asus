@@ -736,6 +736,12 @@ section {
   background: #25bcbd;
 }
 
+.services .icon img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+
 .services .icon i {
   color: #fff;
   font-size: 24px;
@@ -754,7 +760,7 @@ section {
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+/*   background: #fff; */
   border: 2px solid #25bcbd;
 }
 
